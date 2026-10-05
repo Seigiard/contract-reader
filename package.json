@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "lint:anti-slop": "node tools/oxlint/node_modules/oxlint/bin/oxlint --config .oxlintrc.json ."
   },
   "author": "",
   "license": "ISC",

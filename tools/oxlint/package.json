@@ -1,0 +1,11 @@
+{
+  "name": "local-anti-slop-tooling",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@oxlint/plugins": "1.87.0",
+    "oxlint": "1.87.0"
+  },
+  "engines": { "node": ">=22.18.0" }
+}
